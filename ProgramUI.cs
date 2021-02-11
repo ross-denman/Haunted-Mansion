@@ -188,8 +188,7 @@ namespace Haunted_Mansion
         public static Room frontEntrance = new Room(
             "This is the FRONT ENTRANCE. There are muddy FOOTPRINTS on the floor near the FRONT DOOR.",
             new List<Item> { frontDoor, footprints, coatCloset, window2 },
-            new List<string> { "HALLWAY", "to the East" }
-            );
+            new List<string> { "HALLWAY", "to the East" });
         public static Room hallway = new Room(
             "\nYou are in a T-shaped HALLWAY.",
             new List<Item> { window1 },
@@ -225,11 +224,11 @@ namespace Haunted_Mansion
         public static Room upstairsLanding = new Room(
             "This is the UPSTAIRS LANDING. There are stairs leading back down to the lower level and an open door leads EAST to a large bedroom.",
             new List<Item> { },
-            new List<string> { "DDWNSTAIRS LANDING", "down the stairs", "MASTER BEDROOM", "to the East" });
+            new List<string> { "DOWNSTAIRS LANDING", "down the stairs", "MASTER BEDROOM", "to the East" });
         public static Room masterBedroom = new Room(
             "This is the MASTER BEDROOM. An open door leads NORTH to a large MASTER BATHROOM and West leads to the UPSTAIRS LANDING. You see a large BED in the middle of the room.",
             new List<Item> { bed },
-            new List<string> {"MASTER BATHROOM", "can be seen at the North wall.", "UPSTAIRS lANDING", "through the West doorway." });
+            new List<string> { "MASTER BATHROOM", "can be seen at the North wall.", "UPSTAIRS LANDING", "through the West doorway." });
         public static Room masterBathroom = new Room(
             "This is the Master Bathroom. There is an old cast iron BATHTUB and a hole in floor where the toilet and sink used to be. You also see an old SKELETON KEY on the floor. An open door leads SOUTH back to the Master Bedroom.",
             new List<Item> { bathtub, skeletonKey },
@@ -246,7 +245,11 @@ namespace Haunted_Mansion
             {"DINING ROOM", diningRoom },
             {"DOWNSTAIRS LANDING", downstairsLanding },
             {"GREAT ROOM", greatRoom },
-            {"GUEST BATHROOM", guestBathroom }
+            {"GUEST BATHROOM", guestBathroom },
+            {"UPSTAIRS LANDING", upstairsLanding },
+            {"MASTER BEDROOM", masterBedroom },
+            {"MASTER BATHROOM", masterBathroom }
+
         };
 
         public List<Item> inventory = new List<Item>();
