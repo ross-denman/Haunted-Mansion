@@ -213,7 +213,7 @@ namespace Haunted_Mansion
         public static Room downstairsLanding = new Room(
             "You are at the DOWNSTAIRS LANDING at the bottom of a winding staircase leading upwards.",
             new List<Item> { corkscrew },
-            new List<string> { "GREAT ROOM", "can be accessed East", "GUEST BEDROOM", "to the North", "UPSTAIRS LAINDING", "up the staircase" });
+            new List<string> { "GREAT ROOM", "can be accessed East", "GUEST BEDROOM", "to the North", "UPSTAIRS LANDING", "up the staircase" });
         public static Room greatRoom = new Room(
             "This is the GREAT ROOM. The walls are lined with worn, antique wallpaper and the hardwood floors are stained with blood.",
             new List<Item> { fireplace, mirror },
@@ -334,8 +334,8 @@ namespace Haunted_Mansion
                     Console.WriteLine("HELP SCREEN\n" +
                         "\tType GO 'room' to walk around the mansion.\n" +
                         "\ti.e. GO KITCHEN || GO HALLWAY\n\n" +
-                        "\tType EXAMINE 'objects' in the room.\n" +
-                        "\ti.e. EXAMINE SINK || EXAMINE HAMMER\n\n" +
+                        "\tType LOOK 'objects' in the room.\n" +
+                        "\ti.e. LOOK SINK || LOOK HAMMER\n\n" +
                      //   "\tType OPEN 'object' to open objects (if they can be opened)\n" +
                      //   "\ti.e. OPEN CABINET || OPEN TRAPDOOR\n\n" +
                         "\tType GET 'item' to pick up items and add them to your inventory.\n" +
@@ -366,7 +366,7 @@ namespace Haunted_Mansion
                         Console.ReadKey();
                     }
                 }
-                else if (input.StartsWith("EXAMINE "))
+                else if (input.StartsWith("LOOK "))
                 {
                     bool itemAvailable = false;
                     foreach (Item item in currentRoom.Items)
