@@ -1,0 +1,7 @@
+C:\Users\denma\source\repos\Haunted Mansion\obj\Debug\Haunted Mansion.csprojAssemblyReference.cache
+C:\Users\denma\source\repos\Haunted Mansion\obj\Debug\Haunted Mansion.csproj.CoreCompileInputs.cache
+C:\Users\denma\source\repos\Haunted Mansion\bin\Debug\Haunted Mansion.exe.config
+C:\Users\denma\source\repos\Haunted Mansion\bin\Debug\Haunted Mansion.exe
+C:\Users\denma\source\repos\Haunted Mansion\bin\Debug\Haunted Mansion.pdb
+C:\Users\denma\source\repos\Haunted Mansion\obj\Debug\Haunted Mansion.exe
+C:\Users\denma\source\repos\Haunted Mansion\obj\Debug\Haunted Mansion.pdb
